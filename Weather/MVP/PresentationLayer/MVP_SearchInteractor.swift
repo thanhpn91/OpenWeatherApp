@@ -8,8 +8,8 @@
 
 import UIKit
 
-class SearchInteractor: SearchInteractorInterface {
-    weak var view: SearchViewControllerInterface?
+class MVP_SearchInteractor: MVP_SearchInteractorInterface {
+    weak var view: MVP_SearchViewControllerInterface?
     
     private var weatherServices: WeatherServicesProtocol!
     

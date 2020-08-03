@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                
         self.window = UIWindow(windowScene: windowScene)
         
-        let rootViewController = SearchViewController()
+        let rootViewController = MVP_SearchViewController()
         let navViewControler = UINavigationController(rootViewController: rootViewController)
         navViewControler.topViewController?.navigationItem.title = "Weather Forecast"
         

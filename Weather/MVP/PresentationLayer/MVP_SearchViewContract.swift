@@ -16,15 +16,15 @@ struct SearchDisplayItem {
     var description: String
 }
 
-protocol SearchViewControllerInterface: class {
-    var interactor: SearchInteractorInterface? {get set}
+protocol MVP_SearchViewControllerInterface: class {
+    var interactor: MVP_SearchInteractorInterface? {get set}
     
     func display(_ displayItems: [SearchDisplayItem])
     func display(_ error: String)
 }
 
-protocol SearchInteractorInterface {
-    var view: SearchViewControllerInterface? {get set}
+protocol MVP_SearchInteractorInterface {
+    var view: MVP_SearchViewControllerInterface? {get set}
     
     func onViewReadyToLoad()
     func onViewReceivedSearchText(_ text: String)

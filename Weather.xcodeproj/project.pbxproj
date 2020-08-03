@@ -19,21 +19,22 @@
 		D63A71BB24D51CEB00D110CB /* WeatherServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71BA24D51CEB00D110CB /* WeatherServices.swift */; };
 		D63A71BD24D51CFA00D110CB /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71BC24D51CFA00D110CB /* HTTPRequest.swift */; };
 		D63A71BF24D51D1F00D110CB /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71BE24D51D1F00D110CB /* WeatherForecast.swift */; };
-		D63A71C224D51D4100D110CB /* SearchViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C124D51D4100D110CB /* SearchViewContract.swift */; };
-		D63A71C424D51D5200D110CB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C324D51D5200D110CB /* SearchViewController.swift */; };
-		D63A71C624D51D6400D110CB /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C524D51D6400D110CB /* SearchInteractor.swift */; };
+		D63A71C224D51D4100D110CB /* MVP_SearchViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C124D51D4100D110CB /* MVP_SearchViewContract.swift */; };
+		D63A71C424D51D5200D110CB /* MVP_SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C324D51D5200D110CB /* MVP_SearchViewController.swift */; };
+		D63A71C624D51D6400D110CB /* MVP_SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C524D51D6400D110CB /* MVP_SearchInteractor.swift */; };
 		D63A71C924D51EF200D110CB /* WeatherURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C824D51EF200D110CB /* WeatherURL.swift */; };
 		D63A71CF24D5536E00D110CB /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71CE24D5536E00D110CB /* Debouncer.swift */; };
 		D63F0DB524D577A3007A9B8E /* SearchInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63F0DB424D577A3007A9B8E /* SearchInteractorTests.swift */; };
-		D63F0DB824D57D87007A9B8E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C324D51D5200D110CB /* SearchViewController.swift */; };
-		D63F0DB924D57FF9007A9B8E /* SearchViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C124D51D4100D110CB /* SearchViewContract.swift */; };
-		D63F0DBA24D57FFD007A9B8E /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C524D51D6400D110CB /* SearchInteractor.swift */; };
+		D63F0DB824D57D87007A9B8E /* MVP_SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C324D51D5200D110CB /* MVP_SearchViewController.swift */; };
+		D63F0DB924D57FF9007A9B8E /* MVP_SearchViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C124D51D4100D110CB /* MVP_SearchViewContract.swift */; };
+		D63F0DBA24D57FFD007A9B8E /* MVP_SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C524D51D6400D110CB /* MVP_SearchInteractor.swift */; };
 		D63F0DBB24D580AC007A9B8E /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71CE24D5536E00D110CB /* Debouncer.swift */; };
 		D63F0DBC24D580B8007A9B8E /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71BE24D51D1F00D110CB /* WeatherForecast.swift */; };
 		D63F0DBD24D580CE007A9B8E /* WeatherServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71BA24D51CEB00D110CB /* WeatherServices.swift */; };
 		D63F0DBE24D580D0007A9B8E /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71BC24D51CFA00D110CB /* HTTPRequest.swift */; };
 		D63F0DBF24D580D2007A9B8E /* WeatherURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C824D51EF200D110CB /* WeatherURL.swift */; };
 		D63F0DC124D58B19007A9B8E /* SearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63F0DC024D58B19007A9B8E /* SearchViewControllerTests.swift */; };
+		D64D767324D86A9100D41F92 /* MVC_SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D767224D86A9100D41F92 /* MVC_SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,14 +79,15 @@
 		D63A71BA24D51CEB00D110CB /* WeatherServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherServices.swift; sourceTree = "<group>"; };
 		D63A71BC24D51CFA00D110CB /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
 		D63A71BE24D51D1F00D110CB /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
-		D63A71C124D51D4100D110CB /* SearchViewContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewContract.swift; sourceTree = "<group>"; };
-		D63A71C324D51D5200D110CB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		D63A71C524D51D6400D110CB /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		D63A71C124D51D4100D110CB /* MVP_SearchViewContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_SearchViewContract.swift; sourceTree = "<group>"; };
+		D63A71C324D51D5200D110CB /* MVP_SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_SearchViewController.swift; sourceTree = "<group>"; };
+		D63A71C524D51D6400D110CB /* MVP_SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_SearchInteractor.swift; sourceTree = "<group>"; };
 		D63A71C824D51EF200D110CB /* WeatherURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherURL.swift; sourceTree = "<group>"; };
 		D63A71CE24D5536E00D110CB /* Debouncer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
 		D63F0DB424D577A3007A9B8E /* SearchInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractorTests.swift; sourceTree = "<group>"; };
 		D63F0DC024D58B19007A9B8E /* SearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTests.swift; sourceTree = "<group>"; };
 		D63F0DC424D5AE7E007A9B8E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D64D767224D86A9100D41F92 /* MVC_SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,8 +173,10 @@
 				D63A719324D51CC800D110CB /* Assets.xcassets */,
 				D63A719524D51CC800D110CB /* LaunchScreen.storyboard */,
 				D63A719824D51CC800D110CB /* Info.plist */,
+				D64D767124D86A6A00D41F92 /* MVC */,
+				D64D766F24D86A4D00D41F92 /* MVP */,
+				D64D767024D86A5A00D41F92 /* MVVM */,
 				D63A71C024D51D2A00D110CB /* BusinessLayer */,
-				D63A71C724D51D6700D110CB /* PresentationLayer */,
 				D63A71CD24D5534A00D110CB /* Ultis */,
 			);
 			path = Weather;
@@ -210,9 +214,9 @@
 		D63A71C724D51D6700D110CB /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
-				D63A71C124D51D4100D110CB /* SearchViewContract.swift */,
-				D63A71C324D51D5200D110CB /* SearchViewController.swift */,
-				D63A71C524D51D6400D110CB /* SearchInteractor.swift */,
+				D63A71C124D51D4100D110CB /* MVP_SearchViewContract.swift */,
+				D63A71C324D51D5200D110CB /* MVP_SearchViewController.swift */,
+				D63A71C524D51D6400D110CB /* MVP_SearchInteractor.swift */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -248,6 +252,29 @@
 				D63A71CE24D5536E00D110CB /* Debouncer.swift */,
 			);
 			path = Ultis;
+			sourceTree = "<group>";
+		};
+		D64D766F24D86A4D00D41F92 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				D63A71C724D51D6700D110CB /* PresentationLayer */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		D64D767024D86A5A00D41F92 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		D64D767124D86A6A00D41F92 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				D64D767224D86A9100D41F92 /* MVC_SearchViewController.swift */,
+			);
+			path = MVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -454,15 +481,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D63A71C924D51EF200D110CB /* WeatherURL.swift in Sources */,
+				D64D767324D86A9100D41F92 /* MVC_SearchViewController.swift in Sources */,
 				D63A71BB24D51CEB00D110CB /* WeatherServices.swift in Sources */,
-				D63A71C424D51D5200D110CB /* SearchViewController.swift in Sources */,
+				D63A71C424D51D5200D110CB /* MVP_SearchViewController.swift in Sources */,
 				D63A71CF24D5536E00D110CB /* Debouncer.swift in Sources */,
-				D63A71C624D51D6400D110CB /* SearchInteractor.swift in Sources */,
+				D63A71C624D51D6400D110CB /* MVP_SearchInteractor.swift in Sources */,
 				D63A71BD24D51CFA00D110CB /* HTTPRequest.swift in Sources */,
 				D63A71BF24D51D1F00D110CB /* WeatherForecast.swift in Sources */,
 				D63A718B24D51CC500D110CB /* AppDelegate.swift in Sources */,
 				D63A718D24D51CC500D110CB /* SceneDelegate.swift in Sources */,
-				D63A71C224D51D4100D110CB /* SearchViewContract.swift in Sources */,
+				D63A71C224D51D4100D110CB /* MVP_SearchViewContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,9 +499,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D63F0DBD24D580CE007A9B8E /* WeatherServices.swift in Sources */,
-				D63F0DB924D57FF9007A9B8E /* SearchViewContract.swift in Sources */,
-				D63F0DB824D57D87007A9B8E /* SearchViewController.swift in Sources */,
-				D63F0DBA24D57FFD007A9B8E /* SearchInteractor.swift in Sources */,
+				D63F0DB924D57FF9007A9B8E /* MVP_SearchViewContract.swift in Sources */,
+				D63F0DB824D57D87007A9B8E /* MVP_SearchViewController.swift in Sources */,
+				D63F0DBA24D57FFD007A9B8E /* MVP_SearchInteractor.swift in Sources */,
 				D63F0DBC24D580B8007A9B8E /* WeatherForecast.swift in Sources */,
 				D63F0DBE24D580D0007A9B8E /* HTTPRequest.swift in Sources */,
 				D63F0DC124D58B19007A9B8E /* SearchViewControllerTests.swift in Sources */,

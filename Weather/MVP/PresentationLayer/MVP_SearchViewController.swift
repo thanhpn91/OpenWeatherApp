@@ -9,8 +9,8 @@
 import UIKit
 import SnapKit
 
-class SearchViewController: UIViewController, SearchViewControllerInterface {
-    var interactor: SearchInteractorInterface? = SearchInteractor(services: WeatherServices.shared)
+class MVP_SearchViewController: UIViewController, MVP_SearchViewControllerInterface {
+    var interactor: MVP_SearchInteractorInterface? = MVP_SearchInteractor(services: WeatherServices.shared)
     
     var searchBar: UISearchBar!
     var searchController: UISearchController!
@@ -58,7 +58,7 @@ class SearchViewController: UIViewController, SearchViewControllerInterface {
     }
 }
 
-extension SearchViewController: UISearchResultsUpdating {
+extension MVP_SearchViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         guard let text = searchController.searchBar.text else {return}
         debouncer.callback = { [weak self] in
@@ -69,7 +69,7 @@ extension SearchViewController: UISearchResultsUpdating {
     }
 }
 
-extension SearchViewController: UITableViewDataSource, UITableViewDelegate {
+extension MVP_SearchViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return displayItems.count
     }
