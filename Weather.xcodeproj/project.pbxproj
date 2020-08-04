@@ -183,7 +183,6 @@
 				D63A719824D51CC800D110CB /* Info.plist */,
 				D64D767124D86A6A00D41F92 /* MVC */,
 				D64D766F24D86A4D00D41F92 /* MVP */,
-				D64D767024D86A5A00D41F92 /* MVVM */,
 				D63A71C024D51D2A00D110CB /* BusinessLayer */,
 				D63A71CD24D5534A00D110CB /* Ultis */,
 			);
@@ -269,13 +268,6 @@
 				D63A71C724D51D6700D110CB /* PresentationLayer */,
 			);
 			path = MVP;
-			sourceTree = "<group>";
-		};
-		D64D767024D86A5A00D41F92 /* MVVM */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MVVM;
 			sourceTree = "<group>";
 		};
 		D64D767124D86A6A00D41F92 /* MVC */ = {
