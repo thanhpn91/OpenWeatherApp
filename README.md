@@ -21,13 +21,12 @@
 
 3. Business Layer contains logic about how app communicates with open weather API using WeatherServices
 
-Image illustates how everything works together
-Inline-style: 
-![alt text]("https://github.com/thanhpn91/OpenWeatherApp/Resources/Application_architecture.png" "Application Architecture")
+### Image illustates how everything works together
+![Image of Application architecture](https://github.com/thanhpn91/OpenWeatherApp/blob/master/Resources/Application_architecture.png)
 
-Folder structures:
-Inline-style: 
-![alt text]("https://github.com/thanhpn91/OpenWeatherApp/Resources/Application_architecture.png" "Application Architecture")
+### Folder structures:
+
+![Image of Folder structures](https://github.com/thanhpn91/OpenWeatherApp/blob/master/Resources/Folder_structures.png)
 
 ## Check list
 
