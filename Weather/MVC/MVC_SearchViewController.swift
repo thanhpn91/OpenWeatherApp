@@ -94,11 +94,9 @@ extension MVC_SearchViewController: UISearchResultsUpdating {
     
     func updateSearchResults(for searchController: UISearchController) {
         guard let text = searchController.searchBar.text else {return}
-        debouncer.callback = { [weak self] in
-            guard let self = self else {return}
-            self.requestSearchText(text)
+        debouncer.run { [weak self] in
+            self?.requestSearchText(text)
         }
-        debouncer.call()
     }
 }
 

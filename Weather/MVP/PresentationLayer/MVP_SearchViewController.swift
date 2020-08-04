@@ -61,11 +61,10 @@ class MVP_SearchViewController: UIViewController, MVP_SearchViewControllerInterf
 extension MVP_SearchViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         guard let text = searchController.searchBar.text else {return}
-        debouncer.callback = { [weak self] in
+        debouncer.run { [weak self] in
             guard let self = self else {return}
             self.interactor?.onViewReceivedSearchText(text)
         }
-        debouncer.call()
     }
 }
 

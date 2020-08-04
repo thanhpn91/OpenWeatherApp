@@ -8,23 +8,21 @@
 import Foundation
 
 public class Debouncer: NSObject {
-    public var callback: (() -> ())?
     
-    var delay: TimeInterval
-    weak var timer: Timer?
+    public var workItem: DispatchWorkItem?
+    private var delay: TimeInterval
 
-    public init(delay: TimeInterval, callback: (() -> ())? = nil) {
+    public init(delay: TimeInterval) {
         self.delay = delay
-        self.callback = callback
     }
-
-    public func call() {
-        timer?.invalidate()
-        let nextTimer = Timer.scheduledTimer(timeInterval: delay, target: self, selector: #selector(fireNow), userInfo: nil, repeats: false)
-        timer = nextTimer
-    }
-
-    @objc public func fireNow() {
-        self.callback?()
+    
+    public func run(action: @escaping () -> Void) {
+        workItem?.cancel()
+        workItem = DispatchWorkItem(block: action)
+        
+        if let workItem = workItem {
+            DispatchQueue.main.asyncAfter(deadline: .now() + delay, execute: workItem)
+        }
     }
 }
+

@@ -34,6 +34,8 @@
 		D63F0DBE24D580D0007A9B8E /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71BC24D51CFA00D110CB /* HTTPRequest.swift */; };
 		D63F0DBF24D580D2007A9B8E /* WeatherURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C824D51EF200D110CB /* WeatherURL.swift */; };
 		D63F0DC124D58B19007A9B8E /* SearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63F0DC024D58B19007A9B8E /* SearchViewControllerTests.swift */; };
+		D64732AD24D93AE1008DEA8D /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64732AC24D93AE1008DEA8D /* DebouncerTests.swift */; };
+		D64732AE24D93C05008DEA8D /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D767B24D86EBC00D41F92 /* Date+Extension.swift */; };
 		D64D767324D86A9100D41F92 /* MVC_SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D767224D86A9100D41F92 /* MVC_SearchViewController.swift */; };
 		D64D767624D86C7200D41F92 /* UITableViewCell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D767524D86C7200D41F92 /* UITableViewCell+Identifier.swift */; };
 		D64D767824D86CA600D41F92 /* URLCache+config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D767724D86CA600D41F92 /* URLCache+config.swift */; };
@@ -92,6 +94,7 @@
 		D63F0DB424D577A3007A9B8E /* SearchInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractorTests.swift; sourceTree = "<group>"; };
 		D63F0DC024D58B19007A9B8E /* SearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTests.swift; sourceTree = "<group>"; };
 		D63F0DC424D5AE7E007A9B8E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D64732AC24D93AE1008DEA8D /* DebouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebouncerTests.swift; sourceTree = "<group>"; };
 		D64D767224D86A9100D41F92 /* MVC_SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_SearchViewController.swift; sourceTree = "<group>"; };
 		D64D767524D86C7200D41F92 /* UITableViewCell+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Identifier.swift"; sourceTree = "<group>"; };
 		D64D767724D86CA600D41F92 /* URLCache+config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLCache+config.swift"; sourceTree = "<group>"; };
@@ -195,6 +198,7 @@
 				D63A71A324D51CC800D110CB /* Info.plist */,
 				D63F0DB424D577A3007A9B8E /* SearchInteractorTests.swift */,
 				D63F0DC024D58B19007A9B8E /* SearchViewControllerTests.swift */,
+				D64732AC24D93AE1008DEA8D /* DebouncerTests.swift */,
 			);
 			path = WeatherTests;
 			sourceTree = "<group>";
@@ -514,6 +518,7 @@
 			files = (
 				D64D767A24D86D8F00D41F92 /* URLCache+config.swift in Sources */,
 				D63F0DBD24D580CE007A9B8E /* WeatherServices.swift in Sources */,
+				D64732AD24D93AE1008DEA8D /* DebouncerTests.swift in Sources */,
 				D63F0DB924D57FF9007A9B8E /* MVP_SearchViewContract.swift in Sources */,
 				D63F0DB824D57D87007A9B8E /* MVP_SearchViewController.swift in Sources */,
 				D63F0DBA24D57FFD007A9B8E /* MVP_SearchInteractor.swift in Sources */,
@@ -522,6 +527,7 @@
 				D63F0DC124D58B19007A9B8E /* SearchViewControllerTests.swift in Sources */,
 				D64D767924D86D8D00D41F92 /* UITableViewCell+Identifier.swift in Sources */,
 				D63F0DBB24D580AC007A9B8E /* Debouncer.swift in Sources */,
+				D64732AE24D93C05008DEA8D /* Date+Extension.swift in Sources */,
 				D63F0DBF24D580D2007A9B8E /* WeatherURL.swift in Sources */,
 				D63F0DB524D577A3007A9B8E /* SearchInteractorTests.swift in Sources */,
 			);
