@@ -4,21 +4,30 @@
 
 1. The project using Pods as Dependency Manager. If you have not using Pods before please install following link: https://cocoapods.org/
 
-2. Run Weather.xcworkspace
+2. Run pod install to setup with dependencies
 
-3. Configure the Team if you want to run it on real device. No need for simulator
+3. Run Weather.xcworkspace
 
-4. Run the application
+4. Configure the Team if you want to run it on real device. No need for simulator
+
+5. Run the application
 
 
 ## Application Architecture
 
 1. Application using two main layers: Presentation Layer and BusinessLayer
 
-2. Presentation Layer using MVP(Model-View-Presenter)  to handles application logic, relating the how user interact with the UI, UI logic is handled by viewcontroller, and presenter is the coordinator between the View and BusinessLayer 
+2. Presentation Layer using MVP(Model-View-Interactor)  to handles application logic, relating the how user interact with the UI, UI logic is handled by viewcontroller, and Interactor is the coordinator between the View and BusinessLayer 
 
-3. In this project, Business Layer contains logic about how app communicates with open weather API using WeatherServices
+3. Business Layer contains logic about how app communicates with open weather API using WeatherServices
 
+Image illustates how everything works together
+Inline-style: 
+![alt text]("https://github.com/thanhpn91/OpenWeatherApp/Resources/Application_architecture.png" "Application Architecture")
+
+Folder structures:
+Inline-style: 
+![alt text]("https://github.com/thanhpn91/OpenWeatherApp/Resources/Application_architecture.png" "Application Architecture")
 
 ## Check list
 

@@ -184,7 +184,7 @@
 				D64D767124D86A6A00D41F92 /* MVC */,
 				D64D766F24D86A4D00D41F92 /* MVP */,
 				D63A71C024D51D2A00D110CB /* BusinessLayer */,
-				D63A71CD24D5534A00D110CB /* Ultis */,
+				D63A71CD24D5534A00D110CB /* Common */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -253,13 +253,13 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		D63A71CD24D5534A00D110CB /* Ultis */ = {
+		D63A71CD24D5534A00D110CB /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				D64D767424D86C4B00D41F92 /* Extension */,
 				D63A71CE24D5536E00D110CB /* Debouncer.swift */,
 			);
-			path = Ultis;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		D64D766F24D86A4D00D41F92 /* MVP */ = {
