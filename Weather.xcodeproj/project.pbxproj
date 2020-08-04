@@ -35,6 +35,11 @@
 		D63F0DBF24D580D2007A9B8E /* WeatherURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A71C824D51EF200D110CB /* WeatherURL.swift */; };
 		D63F0DC124D58B19007A9B8E /* SearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63F0DC024D58B19007A9B8E /* SearchViewControllerTests.swift */; };
 		D64D767324D86A9100D41F92 /* MVC_SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D767224D86A9100D41F92 /* MVC_SearchViewController.swift */; };
+		D64D767624D86C7200D41F92 /* UITableViewCell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D767524D86C7200D41F92 /* UITableViewCell+Identifier.swift */; };
+		D64D767824D86CA600D41F92 /* URLCache+config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D767724D86CA600D41F92 /* URLCache+config.swift */; };
+		D64D767924D86D8D00D41F92 /* UITableViewCell+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D767524D86C7200D41F92 /* UITableViewCell+Identifier.swift */; };
+		D64D767A24D86D8F00D41F92 /* URLCache+config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D767724D86CA600D41F92 /* URLCache+config.swift */; };
+		D64D767C24D86EBC00D41F92 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D767B24D86EBC00D41F92 /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +93,9 @@
 		D63F0DC024D58B19007A9B8E /* SearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTests.swift; sourceTree = "<group>"; };
 		D63F0DC424D5AE7E007A9B8E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D64D767224D86A9100D41F92 /* MVC_SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_SearchViewController.swift; sourceTree = "<group>"; };
+		D64D767524D86C7200D41F92 /* UITableViewCell+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Identifier.swift"; sourceTree = "<group>"; };
+		D64D767724D86CA600D41F92 /* URLCache+config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLCache+config.swift"; sourceTree = "<group>"; };
+		D64D767B24D86EBC00D41F92 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +257,7 @@
 		D63A71CD24D5534A00D110CB /* Ultis */ = {
 			isa = PBXGroup;
 			children = (
+				D64D767424D86C4B00D41F92 /* Extension */,
 				D63A71CE24D5536E00D110CB /* Debouncer.swift */,
 			);
 			path = Ultis;
@@ -275,6 +284,16 @@
 				D64D767224D86A9100D41F92 /* MVC_SearchViewController.swift */,
 			);
 			path = MVC;
+			sourceTree = "<group>";
+		};
+		D64D767424D86C4B00D41F92 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D64D767524D86C7200D41F92 /* UITableViewCell+Identifier.swift */,
+				D64D767724D86CA600D41F92 /* URLCache+config.swift */,
+				D64D767B24D86EBC00D41F92 /* Date+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,8 +507,11 @@
 				D63A71C624D51D6400D110CB /* MVP_SearchInteractor.swift in Sources */,
 				D63A71BD24D51CFA00D110CB /* HTTPRequest.swift in Sources */,
 				D63A71BF24D51D1F00D110CB /* WeatherForecast.swift in Sources */,
+				D64D767624D86C7200D41F92 /* UITableViewCell+Identifier.swift in Sources */,
 				D63A718B24D51CC500D110CB /* AppDelegate.swift in Sources */,
 				D63A718D24D51CC500D110CB /* SceneDelegate.swift in Sources */,
+				D64D767C24D86EBC00D41F92 /* Date+Extension.swift in Sources */,
+				D64D767824D86CA600D41F92 /* URLCache+config.swift in Sources */,
 				D63A71C224D51D4100D110CB /* MVP_SearchViewContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64D767A24D86D8F00D41F92 /* URLCache+config.swift in Sources */,
 				D63F0DBD24D580CE007A9B8E /* WeatherServices.swift in Sources */,
 				D63F0DB924D57FF9007A9B8E /* MVP_SearchViewContract.swift in Sources */,
 				D63F0DB824D57D87007A9B8E /* MVP_SearchViewController.swift in Sources */,
@@ -505,6 +528,7 @@
 				D63F0DBC24D580B8007A9B8E /* WeatherForecast.swift in Sources */,
 				D63F0DBE24D580D0007A9B8E /* HTTPRequest.swift in Sources */,
 				D63F0DC124D58B19007A9B8E /* SearchViewControllerTests.swift in Sources */,
+				D64D767924D86D8D00D41F92 /* UITableViewCell+Identifier.swift in Sources */,
 				D63F0DBB24D580AC007A9B8E /* Debouncer.swift in Sources */,
 				D63F0DBF24D580D2007A9B8E /* WeatherURL.swift in Sources */,
 				D63F0DB524D577A3007A9B8E /* SearchInteractorTests.swift in Sources */,

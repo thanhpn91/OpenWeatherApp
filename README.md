@@ -22,14 +22,14 @@
 
 ## Check list
 
-1. Using swift as programming language
-2. MVP as application architecture
-3. Complete the UI
-4. Unit test for SearchViewController & SearchInteractor(presenter)
-6. Handle Error 
-7. HTTP request using URLSession, with cache mechanism supported by URLCache 
-8. To change font size of items, the display is scale according to font size
-10. Application using SnapKit  to layout view programmatically
+- [x] Using swift as programming language
+- [x] MVP as application architecture
+- [x] Complete the UI
+- [x] Unit test for SearchViewController & SearchInteractor(presenter)
+- [x] Handle Error 
+- [x] HTTP request using URLSession, with cache mechanism supported by URLCache 
+- [x] To change font size of items, the display is scale according to font size
+- [x] Application using SnapKit  to layout view programmatically
 
 
 

@@ -10,8 +10,8 @@ import XCTest
 
 class SearchViewControllerTests: XCTestCase {
 
-    class MockSearchInteractor: SearchInteractorInterface {
-        var view: SearchViewControllerInterface?
+    class MockSearchInteractor: MVP_SearchInteractorInterface {
+        var view: MVP_SearchViewControllerInterface?
         
         var searchSuccessWithWeather: WeatherForecast?
         var searchErrorWithError: Error?
@@ -30,7 +30,7 @@ class SearchViewControllerTests: XCTestCase {
         }
     }
     
-    class MockSearchViewController: SearchViewController {
+    class MockSearchViewController: MVP_SearchViewController {
         var loadDisplayItems = false
         var diplayError = false
         

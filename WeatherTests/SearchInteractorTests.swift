@@ -27,8 +27,8 @@ struct AppError: Error {
 }
 
 class SearchInteractorTests: XCTestCase {
-    class MockSearchViewController: SearchViewControllerInterface {
-        var interactor: SearchInteractorInterface?
+    class MockSearchViewController: MVP_SearchViewControllerInterface {
+        var interactor: MVP_SearchInteractorInterface?
         
         var loadDisplayItems: Bool = false
         var diplayError: Bool = false
@@ -43,12 +43,12 @@ class SearchInteractorTests: XCTestCase {
     }
     
     var viewController: MockSearchViewController?
-    var interactor: SearchInteractor?
+    var interactor: MVP_SearchInteractor?
     let mockServices = MockWeatherServices()
     
     override func setUp() {
         viewController = MockSearchViewController()
-        interactor = SearchInteractor(services: mockServices)
+        interactor = MVP_SearchInteractor(services: mockServices)
         interactor?.view = viewController
         viewController?.interactor = interactor
     }
