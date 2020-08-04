@@ -21,7 +21,9 @@
 
 - Interactor on the other hands, will decide what to do next, whether it should get data from remote server or persistance store, preparing the display data. We do not use the business model for displaying, data should be parse into intermediate form such as display data, which contains enough information to display. The interactor then call the view to display new informations, error, or loading state.
 
--  Business Layer contains the business logic, for this application we can have one service called weather services which handle logic relating to weather. For larger project, more services can be introduced. An facade pattern can be use to reduce the complexity working with many services. Facade can wrap all services inside, and allow two or more services communicate with each others.
+-  Business Layer contains the business logic, which can be grouped into modules we can named it services. It also contains support modules such as network request, cache mechanism.
+
+- For this application we can have one service called weather services which handle logic relating to weather. For larger project, more services can be introduced. An facade pattern can be use to reduce the complexity working with many services. Facade can wrap all services inside, and allow two or more services communicate with each others.
 
 ### Image illustates how everything works together
 ![Image of Application architecture](https://github.com/thanhpn91/OpenWeatherApp/blob/master/Resources/Application_architecture.png)
