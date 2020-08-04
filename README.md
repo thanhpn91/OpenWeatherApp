@@ -15,11 +15,13 @@
 
 ## Application Architecture
 
-1. Application using two main layers: Presentation Layer and BusinessLayer
+- Application using two main layers: Presentation Layer and BusinessLayer
 
-2. Presentation Layer using MVP(Model-View-Interactor)  to handles application logic, relating the how user interact with the UI, UI logic is handled by viewcontroller, and Interactor is the coordinator between the View and BusinessLayer 
+- Presentation Layer using MVP(Model-View-Interactor)  to handle application logic, relating the how users interact with the UI, viewController is passively received action from users , also from view lifecycle, then pass action to interactor.
 
-3. Business Layer contains logic about how app communicates with open weather API using WeatherServices
+- Interactor on the other hands, will decide what to do next, whether it should get data from remote server or persistance store, preparing the display data. We do not use the business model for displaying, data should be parse into intermediate form such as display data, which contains enough information to display. The interactor then call the view to display new informations, error, or loading state.
+
+-  Business Layer contains the business logic, for this application we can have one service called weather services which handle logic relating to weather. For larger project, more services can be introduced. An facade pattern can be use to reduce the complexity working with many services. Facade can wrap all services inside, and allow two or more services communicate with each others.
 
 ### Image illustates how everything works together
 ![Image of Application architecture](https://github.com/thanhpn91/OpenWeatherApp/blob/master/Resources/Application_architecture.png)
